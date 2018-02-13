@@ -1,3 +1,5 @@
+__author__      = "Nancy Xin Ru Wang"
+
 import numpy
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
@@ -27,7 +29,6 @@ def animate(i):
         line.set_data(x,npdata[:,plotlays[lnum]-1,i])
     return lines
 
-pdb.set_trace()
 
 anim = animation.FuncAnimation(fig, animate, init_func=init,
                                frames=numpy.shape(npdata)[1], interval=100, blit=True)

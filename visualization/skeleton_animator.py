@@ -1,3 +1,5 @@
+__author__      = "Nancy Xin Ru Wang"
+
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.cm as cmx
